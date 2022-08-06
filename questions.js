@@ -160,7 +160,7 @@ function quizCompleted() {
 
     var input = document.createElement("input");
     input.setAttribute("type", "text");
-    input.setAttribute("id", "initals");
+    input.setAttribute("id", "userInitals");
     input.textContent = "";
 
     divQuestions.appendChild(input);
@@ -174,6 +174,7 @@ function quizCompleted() {
 
     submitbutton.addEventListener("click", function() {
         var userInitals = input.value;
+
         if (userInitals === null) {
             console.log("No user initals submitted!")
         } else {
