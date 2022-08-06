@@ -12,7 +12,7 @@ body {
 }
 
 #Quiz-box {
-    padding: 10px;
+    padding: 15px;
     background-color: white;
     position: absolute;
     top: 50%;
@@ -43,4 +43,19 @@ h1 {
     padding: 6px;
     text-align: center;
     font-weight: 600;
+}
+
+li {
+    text-align: left;
+    list-style-type: none;
+    font-size: 20px;
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+button {
+    padding: 4px;
+    background-color: aqua;
+    border-radius: 5px;
 }
