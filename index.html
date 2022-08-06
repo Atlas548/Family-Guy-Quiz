@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <!-- Quiz title  -->
+    <title>Family Guy Quiz</title>
+</head>
+
+<body> 
+    <!-- User link to visit highscoresheet -->
+    <div id="highscoresheet">
+    <a href="highscoresheet.html">HighScores</a>
+    </div>
+    <!-- div id for the entire quiz box -->
+    <div id="Quiz box">
+        <!-- Timer Div  -->
+        <div id="timer"></div>
+        <!-- Questions Div  -->
+        <div id="questions">
+            <h1>Family Guy Quiz</h1>
+            <p>Welcome to the Family Guy Quiz; Your goal is to answer the questions correctly withing the alloted time. 
+                If you answer a question wrong you will recieve a time penalty.</p>
+            <!-- Questions choices inserted from JS -->
+        <ul id="questionchoices"></ul>
+
+        <button id="startTimer">Start Quiz</button>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+
+</body>
+</html>
