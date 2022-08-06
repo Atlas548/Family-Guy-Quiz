@@ -1,7 +1,7 @@
 # Family-Guy-Quiz
 
 ## Description
-
+* I wanted to specify that the acceptance critera for this project
 * This project was designed as a fully functioning quiz with the following:
   
   * The users highscore is their remaining time.
@@ -9,6 +9,9 @@
   * Once the user  has completed the quiz, the user will be prompted to submit your highscore.
   * There is a total of 5 questions and a time limit of 100
 
+## Links
+* https://github.com/Atlas548/Family-Guy-Quiz.git (Github Repo link)
+* https://atlas548.github.io/Family-Guy-Quiz/ (Webpage like)
 
 ## Requirements
 
