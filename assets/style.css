@@ -1,0 +1,31 @@
+body {
+    background-image: url(./images/Family\ Guy\ Photo.jpg);
+    background-repeat: no-repeat;
+    background-size:auto
+    resize: both;
+    height: 100%;
+}
+
+#highscoresheet {
+    font-size: 35px;
+    color: white;
+    cursor: pointer;
+}
+
+#Quiz-box {
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+h1 {
+    color: blue;
+    padding: 6px;
+    text-align: center;
+    font-weight: 600;
+}
